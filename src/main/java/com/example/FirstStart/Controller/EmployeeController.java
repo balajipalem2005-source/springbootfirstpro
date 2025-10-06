@@ -15,7 +15,7 @@ import com.example.FirstStart.Pojo.Employee;
 import com.example.FirstStart.Service.EmployeeService;
 
 @RestController
-@RequestMapping("/global")
+@RequestMapping("/globall")
 public class EmployeeController {
 	private final EmployeeService employeeService;
    
@@ -53,3 +53,4 @@ public class EmployeeController {
 	}
 
 }
+
